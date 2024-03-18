@@ -1,0 +1,76 @@
+body {
+    height: 840px;
+    width: 1440px;
+}
+
+img {
+    height: 840px;
+    width: 610px;
+}
+
+p {
+    font-size: 12px;
+}
+
+#conteudo {
+    display: flex;
+}
+
+#textos {
+    display: flex;
+    flex-direction: column;
+}
+
+#Cabecalho {
+    text-align: left;
+    margin-top: 50px;
+    margin: 20px;
+}
+
+#titulo {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+}
+
+.descricao {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #6F7CB2;
+}
+
+#Caracteristicas {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    margin-top: 80px;
+}
+
+.opcoes {
+    width: 325px;
+    height: 121px;
+    margin-left: 30px;
+}
+
+.tituloCaracteristicas {
+    font-family: Roboto;
+    font-size:  medium 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(9, 17, 51, 1);
+}
+
+.explicacaoCaracteristica {
+    font-family: Roboto;
+    font-size:  regular 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgba(93, 105, 112, 1);
+}
