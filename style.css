@@ -19,6 +19,7 @@ p {
 #textos {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 #Cabecalho {
@@ -60,7 +61,7 @@ p {
 .tituloCaracteristicas {
     font-family: Roboto;
     font-size:  medium 16px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 26px;
     text-align: left;
     color: rgba(9, 17, 51, 1);
