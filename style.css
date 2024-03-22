@@ -1,6 +1,8 @@
 body {
-    height: 840px;
     width: 1440px;
+    height: 824px;
+    top: -427px;
+    left: -720px;
 }
 
 img {
@@ -23,23 +25,25 @@ p {
 }
 
 #Cabecalho {
-    text-align: left;
-    margin-top: 50px;
+    margin-top: 500px;
     margin: 20px;
+    width: 675px;
+    height: 202px;
 }
 
 #titulo {
     font-family: Roboto;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 500px;
     line-height: 48px;
     text-align: left;
 }
 
 .descricao {
+    width: 675px;
     font-family: Roboto;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 26px;
     text-align: left;
     color: #6F7CB2;
@@ -48,29 +52,29 @@ p {
 #Caracteristicas {
     display: flex;
     flex-wrap: wrap;
-    margin: 3px;
     margin-top: 80px;
 }
 
 .opcoes {
     width: 325px;
     height: 121px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .tituloCaracteristicas {
     font-family: Roboto;
-    font-size:  medium 16px;
-    font-weight: bold;
+    font-size: medium 16px;
+    font-weight: 500px;
     line-height: 26px;
+    margin-bottom: -10px;
     text-align: left;
-    color: rgba(9, 17, 51, 1);
+    color:  rgba(9, 17, 51, 1);
 }
 
 .explicacaoCaracteristica {
     font-family: Roboto;
     font-size:  regular 12px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 18px;
     text-align: left;
     color: rgba(93, 105, 112, 1);
